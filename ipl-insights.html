@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IPL Match Insight Engine</title>
+  <style>
+    body {
+      font-family: Arial;
+      margin: 40px;
+      background: #f5f5f5;
+    }
+    textarea {
+      width: 100%;
+      padding: 10px;
+    }
+    button {
+      padding: 10px 20px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+    .output-box {
+      background: white;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>IPL Match Insight Engine</h1>
+
+<p><b>What it does:</b> Converts match summaries into structured, decision-oriented insights using AI.</p>
+
+<h3>Paste Match Summary</h3>
+<textarea id="inputText" rows="10"></textarea>
+
+<button onclick="showOutput()">Generate Insights</button>
+
+<div class="output-box" id="output" style="display:none;">
+  <h3>Insights</h3>
+
+  <b>Turning Points</b>
+  <ul>
+    <li>Momentum shifted during middle overs due to slowdown in run rate.</li>
+    <li>Key wicket of set batsman disrupted chase stability.</li>
+    <li>Death overs execution created decisive advantage.</li>
+  </ul>
+
+  <b>Why Winning Team Won</b>
+  <ul>
+    <li>Better control in middle overs</li>
+    <li>Superior death bowling</li>
+  </ul>
+
+  <b>Why Losing Team Lost</b>
+  <ul>
+    <li>Poor shot selection under pressure</li>
+    <li>Inability to accelerate in key phases</li>
+  </ul>
+
+  <b>Top Performers</b>
+  <ul>
+    <li>Player A – anchored innings under pressure</li>
+    <li>Player B – broke partnerships at crucial time</li>
+    <li>Player C – high-impact finishing</li>
+  </ul>
+
+  <b>What Could Have Been Done Differently</b>
+  <p>More aggressive intent in overs 10–14 could have reduced pressure in the death overs.</p>
+
+</div>
+
+<script>
+function showOutput() {
+  document.getElementById("output").style.display = "block";
+}
+</script>
+
+</body>
+</html>
