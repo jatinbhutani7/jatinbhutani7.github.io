@@ -1,3 +1,4 @@
+console.log("JS FILE LOADED");
 async function evaluateAI() {
   
 async function evaluateAI() {
