@@ -16,7 +16,12 @@ async function evaluateAI() {
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        problem, task, workflow, outputType, error, context
+        problem,
+        task,
+        workflow,
+        outputType,
+        error,
+        context
       })
     });
 
