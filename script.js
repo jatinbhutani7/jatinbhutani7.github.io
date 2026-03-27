@@ -1,5 +1,4 @@
 async function evaluateAI() {
-async function evaluateAI() {
 
   const problem = document.getElementById("problem").value;
   const task = document.getElementById("task").value;
