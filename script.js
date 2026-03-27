@@ -1,3 +1,4 @@
+console.log("VERSION 3 LOADED");
 async function evaluateAI() {
 
   const problem = document.getElementById("problem").value;
@@ -34,3 +35,4 @@ async function evaluateAI() {
     document.getElementById("result").innerText = "Error occurred. Check console.";
   }
 }
+console.log("END OF FILE");
