@@ -35,7 +35,7 @@ async function runAnalysis() {
 
   document.getElementById("output").innerText = "Analyzing...";
 
-  const response = await fetch("YOUR_BACKEND_URL", {
+  const response = await fetch("https://ai-backend-beryl.vercel.app/api/analyze", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
